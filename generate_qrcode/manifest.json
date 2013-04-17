@@ -1,0 +1,14 @@
+{
+  "name": "generate qr",
+  "manifest_version": 2,
+  "version": "1.0",
+  "description": "generate current page url's qrcode",
+  "permissions": [
+    "https://*.googleapis.com/*",
+    "tabs"
+  ],
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  }
+}
